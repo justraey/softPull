@@ -1,0 +1,38 @@
+#%RAML 1.0 DataType
+    type: object
+    properties:
+      first_name:
+        type: string
+        example: "Rae"
+      middle_name?:
+        type: string
+        example: ""
+      last_name:
+        type: string
+        example: "Abebe"
+      address:
+        type: string
+        example: "123 Writer's Hollow"
+      city:
+        type: string
+        example: "Dreamscape"
+      state:
+        type: string
+        example: "Imaginaria"
+      zip:
+        type: string
+        example: "00042"
+      date_of_birth?:
+        type: date-only
+        example: 1995-11-22
+      ssn:
+        type: string
+        example: "123456789"
+      email?:
+        type: string
+        example: "rae@example.com"
+      phone?:
+        type: string
+        example: "+1-555-0199"
+
+      
