@@ -1,0 +1,21 @@
+#%RAML 1.0
+title: softPull
+version: v1
+mediaType: application/json
+
+types:
+  dataType: !include types/dataType.raml
+
+traits:
+  securedHeaders: !include traitsHeaders/trait.raml
+
+/applicant-report:
+  get:
+    is: [securedHeaders]
+    description: Get the full report for an applicant
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include exam/file.json
+              

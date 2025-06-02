@@ -1,0 +1,31 @@
+{
+    "applicant": {
+        "first_name": "John",
+        "middle_name": null,
+        "last_name": "Dough",
+        "address": "3010 Tamarack Ave",
+        "city": "Carlsbad",
+        "state": "California",
+        "zip": "92010",
+        "date_of_birth": null,
+        "ssn": "222222222",
+        "email": null,
+        "phone": null
+    },
+    "intelligence": {
+        "result": "Failed"
+    },
+    "reports": {
+        "link": "https://app.isoftpull.com/client/applicants/view_only/c11e953f-69fd-4cc6-b17f-a205392aa5cc/soft_pull",
+        "transunion": {
+            "status": "failure",
+            "message": "A no-hit file is returned.",
+            "failure_type": "no-hit"
+        },
+        "equifax": {
+            "status": "failure",
+            "message": "No-hit",
+            "failure_type": "no-hit"
+        }
+    }
+}
